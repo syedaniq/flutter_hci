@@ -14,6 +14,7 @@ class MeinContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 200,
+      width: MediaQuery.sizeOf(context).width,
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.all(
           Radius.circular(30),
