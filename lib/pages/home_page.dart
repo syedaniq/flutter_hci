@@ -41,7 +41,6 @@ class HomePage extends StatelessWidget {
                   child: Text('Erstelle einen neuen Studenten!'),
                 )
               : ListView(
-                  shrinkWrap: true,
                   children: [
                     for (final student in value.studentsList)
                       Padding(
